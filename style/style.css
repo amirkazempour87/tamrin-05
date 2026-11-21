@@ -49,3 +49,62 @@ nav > a {
     margin: 20px 0px 0px 500px;
     transform: rotate(-10deg);
 }
+
+
+
+.content {
+    position: relative;
+    width: 900px;
+    height: 400px;
+    background-color: rgb(255, 217, 0);
+}
+
+.content h1 {
+    color: aliceblue;
+    font-family: "Titan One", sans-serif;
+    font-size: 120px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+}
+
+
+.content h2 {
+    position: absolute;
+    top: 180px;
+    left: 390px;
+    border-radius: 20px;
+    width: 100px;
+    padding-left: 20px;
+    color: yellow;
+    background-color: green;
+    font-size: 30px;
+    font-family: "Titan One", sans-serif;
+    z-index: 3;
+}
+
+.content p {
+    width: 150px;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+}
+
+.content pre {
+    position: absolute;
+    left: 360px;
+    bottom: 20px;
+    color: aliceblue;
+    font-size: 60px;
+    font-family: "Titan One", sans-serif;
+}
+
+.content img{
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    width: 400px ;
+    height: 300px;
+    z-index: 2;
+}
