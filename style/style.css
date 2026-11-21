@@ -53,8 +53,9 @@ nav > a {
 
 
 .content {
+    border-radius: 15px;
     position: relative;
-    width: 900px;
+    width: 920px;
     height: 400px;
     background-color: rgb(255, 217, 0);
 }
@@ -107,4 +108,54 @@ nav > a {
     width: 400px ;
     height: 300px;
     z-index: 2;
+}
+
+.sidebar{
+    position: relative;
+    bottom: 159px;
+    left: 920px;
+    width: 600px;
+    height: 380px;
+    background-color: orange;
+    border-radius: 20px;
+}
+
+.sidebar h1 {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    font-family: "Titan One", sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.sidebar h2 {
+    position: absolute;
+    top: 180px;
+    left: 390px;
+    border-radius: 20px;
+    width: 100px;
+    padding-left: 20px;
+    color: yellow;
+    background-color: green;
+    font-size: 30px;
+    font-family: "Titan One", sans-serif;
+    z-index: 3;
+
+}
+
+.sidebar img {
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    width: 250px;
+    height: 250px;
+}
+
+.sidebar p {
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 330px;
+    left: 190px;
 }
